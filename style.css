@@ -4,6 +4,8 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Ubuntu', sans-serif; 
+
+overflow-x: hidden;
 }
 h1{
     font-size: 70px;
@@ -64,3 +66,61 @@ font-weight: 100;
 font-size: 18px;
 
 }
+
+.female img {
+width: 37%;
+height: 97%;
+
+
+position: relative;
+left: 20%;
+top: 10%;
+}
+
+.about{
+width: 35%;
+color: rgba(0, 0, 0, 0.598);
+position: relative;
+right:170px;
+top: 100px;
+
+
+
+}
+.seci{
+display: flex;
+
+}
+.st{
+     background-image: url(images/shapes/7.png)  ;
+     background-repeat: no-repeat;
+     background-size:   100%; 
+     padding-bottom: 150px;
+    }
+
+
+.header{
+
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.lorem{
+    font-style: unset;
+    font-weight: 700;
+font-size: 20px;
+padding-bottom: 110px;
+
+
+}
+
+.target{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    
+    padding: 23px 50px;
+    border-radius: 35px;
+    color: white;
+    font-weight: 800;
+    font-size: larger;
+}
+
