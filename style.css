@@ -95,7 +95,8 @@ display: flex;
      background-image: url(images/shapes/7.png)  ;
      background-repeat: no-repeat;
      background-size:   100%; 
-     padding-bottom: 150px;
+     padding-bottom: 50px;
+     margin-top: 100px;
     }
 
 
@@ -105,7 +106,6 @@ display: flex;
     padding-bottom: 30px;
 }
 .lorem{
-    font-style: unset;
     font-weight: 700;
 font-size: 20px;
 padding-bottom: 110px;
@@ -122,5 +122,92 @@ padding-bottom: 110px;
     color: white;
     font-weight: 800;
     font-size: larger;
+}
+.recipi{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.564);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.kalam{
+font-family:Arial, Helvetica, sans-serif ;
+font-weight: 900;
+}
+.been{
+    color: rgba(0, 0, 0, 0.61);
+}
+
+ 
+ 
+.recipis{
+text-align: center;
+padding: 30px 90px;
+margin-top: 60px;
+}
+.recipis h1{
+font-size: 45px;
+color: rgba(0, 0, 0, 0.616);
+}
+
+.recipis p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.recipis .recipi-box{
+display: flex;
+width: 100%;
+height: 600px;
+}
+.recipi-box .box img{
+
+width:93%;
+height: 55%;
+padding-top: 15px;
+ 
+
+}
+
+.box{
+    margin-top: 40px;
+    box-shadow: 2px 3px 7px gray;
+    border-radius: 40px;
+    padding: 10px 10px;
+    margin-left: 20px;
+    width: 100%;
+}
+.box.ceo{
+
+    position: relative;
+    left: 30px;
+    margin-right: 60px;
+    
+}
+.box.ceo h3{
+    padding-left: 40px;
+    text-align: left;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+
+.box.meo h3{
+    padding-left: 40px;
+    text-align: left;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.box.ceo p{
+     text-align: justify;
+    padding-left: 35px;
+    color: rgba(0, 0, 0, 0.648)
+}
+.box.meo p{
+    text-align: justify;
+    padding-left: 35px;
+    color: rgba(0, 0, 0, 0.648);
 }
 
